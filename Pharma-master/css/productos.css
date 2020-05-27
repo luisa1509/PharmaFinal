@@ -1,0 +1,19 @@
+body{
+    background: #F8F7F2;
+}
+
+.producto{
+    margin-left: 60px;
+    background: yellowgreen;
+    margin-bottom: 0px;
+}
+.comprarBtn{
+    margin-left: 130px;
+    background: #4B8F8E;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 70px;
+    top: 200px;
+
+}

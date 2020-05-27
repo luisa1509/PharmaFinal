@@ -1,0 +1,12 @@
+.factura{
+    background: yellowgreen;
+    position: relative;
+    margin-left: 60%;
+    margin-right: 10%;
+    
+}
+
+#titulo{
+   text-align: center;
+   margin-bottom: 0px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div>
+        <img src="imgs/logoB.png" alt="logo">
+    </div>
+
+    <div>
+        
+        <img src="imgs/home.png" alt="ilustracion">
+        <div class="bgInicio">
+            <form class="formulario">
+                <h1>Crea tu cuenta</h1>
+                <div class="contenedor">
+
+                    <div class="input-contenedor">
+
+                        <input type="text" placeholder="Nombre" id="name">
+                    </div>
+                    <div class="input-contenedor">
+
+                        <input type="text" placeholder="Direccion" id="direction">
+                    </div>
+                   
+                  
+                    <div class="input-contenedor">
+
+                        <input type="password" placeholder="Contraseña" id="password">
+                    </div>
+                    <div class="input-contenedor">
+
+                        <input type="password" placeholder="Confirmar contraseña" id="Cpassword">
+                    </div>
+                    <input type="submit" value="Registrar" class="button" id="registerBtn">
+                    <p>¿Ya tinenes una cuenta? <a href="index.html" class="link"> Iniciar Sesion</a></p>
+                </div>
+
+
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script type="text/javascript" src="js/model/usuario.js"></script>
+    <script type="text/javascript" src="js/control/registro.js"></script>
+</html>

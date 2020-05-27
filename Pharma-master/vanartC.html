@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma</title>
+    <link rel="stylesheet" href="/css/compra.css">
+</head>
+<body style="background: #F8F7F2;">
+    <div>
+        <img src="imgs/logoB.png" alt="logo">
+    </div>
+    <div style="position: absolute;">
+        <img src="imgs/compra/vanart.png" alt="producto">
+    </div>
+        
+       
+        
+    </div>
+
+    <div class="factura">
+         <h1 id="titulo">Shampoo Vanart liso coco keratina</h1>
+         <div><p style="text-align: center;">cantidad:1</p></div>
+         <div><p>Detalle del envio</p></div>
+         <div><p style="background: grey;" id="direccion">Dirección: cargando....</p></div>
+         <div><p>Detalle del pago</p></div>
+         <div><p style="background: grey;" id="nombre">Nombre: cargando....</p></div>
+         <div><p>Pagas:</p> <p id="precio">$12.900</p></div>
+         <div><button id="confirmarvan">Confirmar compra</button></div>
+        </div>
+    
+    
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+<script type="text/javascript" src="js/model/compra.js"></script>
+<script type="text/javascript" src="js/control/compraVan.js"></script>
+</html>
